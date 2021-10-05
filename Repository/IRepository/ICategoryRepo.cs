@@ -7,6 +7,6 @@ namespace Bounded.DataAccess.Repository.IRepository
 {
     public interface  ICategoryRepo : IRepository<Category>
     {
-        void Update(Category category);        
+        void Update(Category category);
     }
 }
