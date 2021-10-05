@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Bounded.DataAccess.Repository.IRepository
 {
-    public interface  ICategoryRepo : IRepository<Category>
+    public interface ICategoryRepo : IRepository<Category>
     {
         void Update(Category category);
     }
